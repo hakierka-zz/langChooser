@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6c7a89;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="MAGNIFYING_GLASS" data-name="MAGNIFYING GLASS" class="cls-1" d="M881.951,47.3a1.875,1.875,0,0,1-2.652,2.651h0l-5.5-5.495a7.517,7.517,0,1,1,2.652-2.652l5.5,5.5h0ZM870,32.375A5.625,5.625,0,1,0,875.625,38,5.625,5.625,0,0,0,870,32.375Z" transform="translate(-862.5 -30.5)"/>
+</svg>
