@@ -1,15 +1,11 @@
+body {
+  width: 100%;
+}
+
 * {
   font-family: "Lato", Helvetica sans-serif;
   h1 {
     font-weight: 700;
-  }
-  h2 {
-    font-size: 16px;
-    font-weight: 400;
-  }
-  p {
-    font-size: 13px;
-    font-weight: 400;
   }
   a {
     text-decoration: none;
@@ -22,6 +18,7 @@
   height: 20px;
   background-image: url("../images/flags.png");
   background-position: 0 0;
+
 }
 .sprite {
   width: 29px;
@@ -92,73 +89,6 @@
   background-color: darken(deepskyblue, 10%);
   transition: 1s;
 }
-.searcherBox {
-  margin: 0;
-  float: right;
-  width: 100%;
-  margin-right: 1rem;
-
-
-  * {
-    background-color: gray;
-
-  }
-
-
-  .container-4{
-    padding: 0;
-    margin: 0;
-    white-space: nowrap;
-  }
-
-  .container-4 input#search{
-    width: 89%;
-    height: 2rem;
-    background: white;
-    float: left;
-    color: #fff;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    border-radius: 5%;
-  }
-
-  .container-4 input#search::-webkit-input-placeholder {
-    color: #65737e;
-  }
-
-  .container-4 input#search:-moz-placeholder { /* Firefox 18- */
-    color: #65737e;
-  }
-
-  .container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
-    color: #65737e;
-  }
-
-  .container-4 input#search:-ms-input-placeholder {
-    color: #65737e;
-  }
-
-  .container-4 button.icon{
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding-left: 0.5rem;
-    border: 1px solid black;
-    background: gray;
-    height: 2rem;
-    width: 11%;
-    opacity: 0;
-    font-size: 100%;
-  }
-
-  .container-4 button.icon, .container-4:active button.icon, .container-4:focus button.icon{
-    outline: none;
-    opacity: 1;
-  }
-}
 
 //Arrows for show more
 
@@ -171,57 +101,39 @@
   border-top: 5px solid #6c7a89;
 }
 
-header {
+nav {
+  float: left;
   width: 100%;
+
   * {
     background-color: white;
   }
 
 
-  background-color: white;
-
 
 
   .headerColumns {
     width: 100%;
-
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    h1  {
-      height: auto;
-      float: left;
-    }
     .leftSideOfHeader {
-      width: 30%;
+      width: 50%;
+      h1 {
+        margin-left: 3rem;
+      }
     }
-
     .rightSideOfHeader {
-      width: 70%;
+      width: 50%;
       display: flex;
       flex-flow: row;
       justify-content: flex-end;
 
-
-      .signUpButton {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        border-left: 1px solid gray;
-        div {
-          padding-top: 0.2rem;
-        }
-      }
-      .signInButton {
-        padding-right: 1rem;
-        border-right: 1px solid gray;
-        div {
-          padding-top: 0.2rem;
-        }
-      }
-
       .langUK {
-        padding-top: 0.5rem;
-        padding-left: 1rem;
+        margin-right: 3rem;
+        padding-top: 1.5rem;
         display: flex;
         flex-direction: row;
         position: relative;
